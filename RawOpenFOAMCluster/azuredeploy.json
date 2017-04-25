@@ -21,6 +21,10 @@
 			"defaultValue": "Basic_A4",
 			"allowedValues": [
 				"Basic_A4",
+				"Standard_A1_v1",
+				"Standard_A2_v2",
+				"Standard_DS1_v2",
+				"Standard_DS2_v2",
 				"Standard_A8",
 				"Standard_A9",
 				"Standard_H16r",
