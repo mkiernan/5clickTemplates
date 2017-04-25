@@ -3,7 +3,6 @@ USER=$1
 HOST=`hostname`
 DOWN=$2
 echo $USER,$HOST,$DOWN
-mkdir /mnt/resource/scratch/
 mkdir /mnt/resource/scratch/applications
 mkdir /mnt/resource/scratch/applications/OpenFOAM
 mkdir /mnt/resource/scratch/INSTALLERS
@@ -32,5 +31,3 @@ echo source /mnt/resource/scratch/applications/OpenFOAM/OpenFOAM-2.3.x/etc/bashr
 
 rm /mnt/resource/scratch/*.tgz
 chown -R $USER:$USER /mnt/resource/scratch/*
-chown -R $USER:$USER /mnt/resource/nfsshare
-
