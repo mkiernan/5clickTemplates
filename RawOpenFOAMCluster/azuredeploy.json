@@ -207,7 +207,7 @@
 		"location": "[parameters('resourceLocation')]",
 		"properties": {
 			"hardwareProfile": {
-			  "vmSize": "Basic_A3"
+			  "vmSize": "Standard_DS2_v2"
 			},
 			"osProfile": {
 				"computerName": "[variables('jumpBoxName')]",
